@@ -1,0 +1,123 @@
+header {
+    background-color: rgb(150, 125, 125);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    width: 100%;
+    border-style: outset;
+}
+.nav-links ul {
+    display: flex;
+    gap: 2px;
+    color:black;
+    list-style: none; 
+    justify-content: center; 
+    align-items: center;
+    padding: 10px;
+
+}
+.nav-links ul li{
+    display: inline;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-links ul li a:hover {
+    background-color: rgb(46, 25, 25);
+    padding: 18px;
+    color: white;
+}
+.nav-links ul{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    justify-content: end;
+    font-size: medium;
+}
+#container{
+    background-image:url(https://www.tembeaafrica.co.ke/wp-content/uploads/2022/05/Lion-Serengeti.jpg);
+    height: 90vh;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    gap: 10px;
+    
+}
+ 
+#overlay h2{
+    align-items: center;
+    justify-content: center;
+    font-size: 150px;
+    
+}
+#overlay h2{
+    transition: ease-in-out;
+}
+#overlay p{
+    font-size:x-large;
+    align-items: center;
+    justify-content:flex-end ;
+    font-style: italic;
+    padding-left: 3rem;
+}
+
+#contain{
+    display: flex;
+    background: grey;
+    margin: 7rem;
+    padding: 2rem;
+    gap: 2rem;
+}
+.contain-img {
+   position: relative;
+   top: -4rem; 
+   left: -4rem;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+.tables{
+    text-align: left;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 50%;
+    padding: 5px;
+    font-size: 20px;
+}
+ h3{
+    align-items: center;
+    font-size: xx-large;
+    flex-direction: column;
+    margin-left: 15rem;
+}
+.tables td th{
+    border: 1px solid #ddd;
+    
+    padding: 8px;
+
+}
+.tables tr{
+    background-color: gainsboro;
+
+}
+.tables tr:hover{
+    background-color: black;
+    color: white;
+}
+.tables th:hover{
+    background-color: black;
+    color: white;
+}
+.about image img{
+    width: 400px;
+}
